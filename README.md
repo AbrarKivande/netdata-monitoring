@@ -23,6 +23,7 @@ To run Netdata locally using Docker:
 
 ```bash
 docker run -d --name=netdata -p 19999:19999 --cap-add SYS_PTRACE --security-opt apparmor=unconfined netdata/netdata
+```
 
 Once the container is up and running, visit:
 
